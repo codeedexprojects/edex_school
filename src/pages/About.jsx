@@ -1,44 +1,62 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './About.css'
 import { Link } from 'react-router-dom'
+import circleImage from '/src/assets/anime.jpg'
+import { FiMenu, FiX } from 'react-icons/fi';
 
 
 function About() {
+      const [menuOpen, setMenuOpen] = useState(false);
+  
   return (
     <div>
-       <nav className="navbar">
-      <div className="navbar-left">
-        <h2 className='head1'>EDEX</h2>
-      </div>
-      <div className="navbar-right">
-      <h3 ><Link to='/'>Home</Link></h3>
-        <h3 ><Link to='/curiculam'>Curriculam</Link></h3>
-        <h3><Link to='/about'>About Us</Link></h3>
-        <h3 ><Link to='/contact'>Contact</Link></h3>
-
-      </div>
-    </nav>
-
-    <div className="about-container">
-      <div className="about-left">
-        <h1>ABOUT</h1>
-        <h1><span className='color'>EDEX LIFE</span></h1>
-        <h1><span className='color'>SCHOOL</span></h1>
-      </div>
-      <div className="about-right">
-        <div className="about-text">
-          <p className="main-quote">
-            Where 1% daily growth leads to <br />
-            100% transformational change
-          </p>
-          <p className="sub-text">
-            At EDEX Life School, we believe greatness is built day by day.
-            we're a 14-Week immensive academy designed to enquip you with th skills. mindset, and grit needed to thrive in today's unpredictable world.
-          </p>
-        </div>
-      </div>
+          <nav className="navbar">
+            <div className="navbar-left">
+              <h2 className="head1">EDEX</h2>
+            </div>
       
+            <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
+              {menuOpen ? <FiX size={28} color="white" /> : <FiMenu size={28} color="white" />}
+            </div>
+      
+            <div className={`navbar-right ${menuOpen ? 'open' : ''}`}>
+              <h3><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></h3>
+              <h3><Link to="/curiculam" onClick={() => setMenuOpen(false)}>Curriculam</Link></h3>
+              <h3><Link to="/about" onClick={() => setMenuOpen(false)}>About Us</Link></h3>
+              <h3><Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link></h3>
+            </div>
+          </nav>
+
+    <div
+  className="background-fade"
+  style={{
+    backgroundImage: `url(${circleImage})`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+  }}
+>
+  <div className="overlay">
+    <div className="about-left">
+      <h1>ABOUT</h1>
+      <h1><span className='color'>EDEX LIFE</span></h1>
+      <h1><span className='color'>SCHOOL</span></h1>
     </div>
+    <div className="about-right">
+      <div className="about-text">
+        <p className="main-quote">
+          Where 1% daily growth leads to <br />
+          100% transformational change
+        </p>
+        <p className="sub-text">
+          At EDEX Life School, we believe greatness is built day by day.
+          We're a 14-Week immersive academy designed to equip you with the skills, mindset, and grit needed to thrive in today's unpredictable world.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
 
     <div className="about">
         <h3 className='sec'>Who We Are</h3>

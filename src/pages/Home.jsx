@@ -1,23 +1,37 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Home.css'
+import video from "/src/assets/animation.mp4"
+import { FiMenu, FiX } from 'react-icons/fi';
 
 
 function Home() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <div>
-       <nav className="navbar">
+           <nav className="navbar">
       <div className="navbar-left">
-        <h2 className='head1'>EDEX</h2>
+        <h2 className="head1">EDEX</h2>
       </div>
-      <div className="navbar-right">
-        <h3 ><Link to='/'>Home</Link></h3>
-        <h3 ><Link to='/curiculam'>Curriculam</Link></h3>
-        <h3><Link to='/about'>About Us</Link></h3>
-        <h3 ><Link to='/contact'>Contact</Link></h3>
 
+      <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
+        {menuOpen ? <FiX size={28} color="white" /> : <FiMenu size={28} color="white" />}
+      </div>
+
+      <div className={`navbar-right ${menuOpen ? 'open' : ''}`}>
+        <h3><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></h3>
+        <h3><Link to="/curiculam" onClick={() => setMenuOpen(false)}>Curriculam</Link></h3>
+        <h3><Link to="/about" onClick={() => setMenuOpen(false)}>About Us</Link></h3>
+        <h3><Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link></h3>
       </div>
     </nav>
+
+    <div className="animation">
+    <video autoPlay loop muted playsInline className="background-video">
+    <source src={video} type="" />
+  
+  </video>
 
     <div className="home-heading">
         <h1 >TRANSFORMING</h1>
@@ -35,6 +49,7 @@ function Home() {
       <div className="btn">
         <button>Apply Now</button>
       </div>
+    </div>
       <div class="batch-section">
   <div class="batch-left">
     <img src="https://img.freepik.com/premium-photo/smiling-teacher-educator-with-glasses-background-class_209864-66.jpg" alt="Students" />

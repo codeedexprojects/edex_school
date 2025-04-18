@@ -1,22 +1,30 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Contact.css'
+import { FiMenu, FiX } from 'react-icons/fi';
+
 
 function Contact() {
+      const [menuOpen, setMenuOpen] = useState(false);
+  
   return (
     <div>
-       <nav className="navbar">
-      <div className="navbar-left">
-        <h2 className='head1'>EDEX</h2>
-      </div>
-      <div className="navbar-right">
-        <h3 ><Link to='/'>Home</Link></h3>
-        <h3 ><Link to='/curiculam'>Curriculam</Link></h3>
-        <h3><Link to='/about'>About Us</Link></h3>
-        <h3 ><Link to='/contact'>Contact</Link></h3>
-
-      </div>
-    </nav>
+          <nav className="navbar">
+            <div className="navbar-left">
+              <h2 className="head1">EDEX</h2>
+            </div>
+      
+            <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
+              {menuOpen ? <FiX size={28} color="white" /> : <FiMenu size={28} color="white" />}
+            </div>
+      
+            <div className={`navbar-right ${menuOpen ? 'open' : ''}`}>
+              <h3><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></h3>
+              <h3><Link to="/curiculam" onClick={() => setMenuOpen(false)}>Curriculam</Link></h3>
+              <h3><Link to="/about" onClick={() => setMenuOpen(false)}>About Us</Link></h3>
+              <h3><Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link></h3>
+            </div>
+          </nav>
       <div className="contact-banner">
         <div className="image">
           <img src="https://i.pinimg.com/736x/4e/db/3b/4edb3b9fa6b417e11bd116d067c78c21.jpg" alt="contact" />

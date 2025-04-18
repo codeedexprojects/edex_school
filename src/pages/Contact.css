@@ -1,3 +1,8 @@
+body{
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+
 .head1{
     color: white;
 }
@@ -52,7 +57,7 @@
   }
   
   .navbar-right h3:hover {
-    color: #124506;
+    color:#CDFF00;
   }
   .contact-banner {
     position: relative;
@@ -70,7 +75,7 @@
     height: 100%;
     display: block;
     object-fit: cover;
-    filter: brightness(0.6); /* Optional: makes text more readable */
+    filter: brightness(0.6); 
   }
   
   .contact-content {
@@ -119,7 +124,7 @@
   }
   
   .contact-info i {
-    color: #099809; /* green for icon */
+    color: #CDFF00; 
   }
   
   
@@ -200,7 +205,7 @@
     cursor: pointer;
   }
   .social-icons i:hover {
-    color: green;
+    color: #CDFF00;
   }
   
   .footer-column h4 {
@@ -241,7 +246,7 @@
   }
   
   .footer-column button:hover {
-    background-color: #00cc66;
+    background-color:#CDFF00;
     color: white;
   }
   

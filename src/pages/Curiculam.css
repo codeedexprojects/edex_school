@@ -1,3 +1,6 @@
+body{
+  font-family: "Kumbh Sans", sans-serif;
+}
 .works {
     padding: 10px;
     background-color: hsl(0, 0%, 98%);
@@ -60,7 +63,7 @@
     padding: 16px;
     border-radius: 10px;
     min-width: 180px;
-    height: 160px; /* Fixed smaller height */
+    height: 160px;
     flex-shrink: 0;
     margin-right: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -109,7 +112,6 @@
   }
   .four-box {
     padding: 40px;
-    /* text-align: center; */
   }
   .four-box h1 {
   color: #fff;
@@ -133,7 +135,7 @@
   
   .four-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-columns: repeat(2, 1fr); 
     gap: 20px;
   }
   
@@ -141,7 +143,7 @@
     color: white;
     padding: 20px;
     border-radius: 12px;
-    border: 2px solid green;
+    border: 2px solid #CDFF00;
     text-align: left;
     min-width: 220px;
   }
@@ -175,13 +177,13 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.3); /* light white overlay */
-    z-index: 2; /* sits above the image blur but behind text */
+    background: rgba(255, 255, 255, 0.3); 
+    z-index: 2;
   }
   
   .connect-image {
     position: relative;
-    z-index: 3; /* higher than both ::before (blur) and ::after (white shade) */
+    z-index: 3;
     padding: 30px;
     border-radius: 12px;
   }
@@ -220,7 +222,7 @@
   }
   
   .form-container button:hover {
-    background-color: #45a049;
+    background-color: #CDFF00;
   }
   .week-content {
     display: flex;
@@ -250,7 +252,7 @@
     font-size: 24px;
     margin-bottom: 20px;
     text-align: left;
-    color: rgb(113, 253, 48);
+    color:#CDFF00;
     font-size: 30px;
     font-weight: bolder;
 
@@ -319,7 +321,7 @@
   }
   
   .group-card {
-background-color: #a1f046;
+background-color:#CDFF00;
 padding: 20px;
     border-radius: 15px;
     text-align: left;
