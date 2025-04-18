@@ -13,8 +13,9 @@ function About() {
       <div className="navbar-right">
       <h3 ><Link to='/'>Home</Link></h3>
         <h3 ><Link to='/curiculam'>Curriculam</Link></h3>
-        <h3 ><Link to='/contact'>Contact</Link></h3>
         <h3><Link to='/about'>About Us</Link></h3>
+        <h3 ><Link to='/contact'>Contact</Link></h3>
+
       </div>
     </nav>
 

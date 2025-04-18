@@ -13,8 +13,9 @@ function Home() {
       <div className="navbar-right">
         <h3 ><Link to='/'>Home</Link></h3>
         <h3 ><Link to='/curiculam'>Curriculam</Link></h3>
-        <h3 ><Link to='/contact'>Contact</Link></h3>
         <h3><Link to='/about'>About Us</Link></h3>
+        <h3 ><Link to='/contact'>Contact</Link></h3>
+
       </div>
     </nav>
 
@@ -62,25 +63,25 @@ function Home() {
   <p>Discover what sets EDEX Life School apart and how it can transform <br /> your learning experience.</p>
 </div>
 <div className="skill-card">
-  <div className="card">
+  <div className="card1">
     <h3>14 Skills</h3>
     <p>Engage in 14 weeks of structured learning for progressive growth and industry relevance.</p>
   </div>
-  <div className="card">
+  <div className="card1">
     <h3>Immensive Learning <br />Experience</h3>
     <p>Master essential bussiness and professional skills through hands-on learning</p>
   </div>
-  <div className="card">
+  <div className="card1">
     <h3>Real-Life Business <br />Projects</h3>
     <p>Gain practical experience by working on real business challenges.</p>
   </div>
-  <div className="card">
+  <div className="card1">
     <h3>Expert Talks</h3>
     <p>Learn from top industry leaders and successful entrepreneurs during 14 insightful sessions.</p>
   </div>
 </div>
 <div style={{display:"flex",justifyContent:"center"}}>
-<div className="card" style={{marginTop:"20px", textAlign:"center",alignItems:"center"}}>
+<div className="card1" style={{width:"295px", textAlign:"center",alignItems:"center"}}>
 <h3>Strategic Games</h3>
 <p>Develop leadership problem-solving, and negotiation <br />skills through high-impact simulations.</p>
 
