@@ -9,7 +9,7 @@ import 'aos/dist/aos.css'
 function Contact() {
       const [menuOpen, setMenuOpen] = useState(false);
       useEffect(()=>{
-Aos.init({duration:"2000"})
+Aos.init({duration:"2000",overflow:"hidden"})
       },[])
   
   return (
@@ -33,12 +33,12 @@ Aos.init({duration:"2000"})
       <div className="contact-banner">
         <div className="image">
           <img src="https://i.pinimg.com/736x/4e/db/3b/4edb3b9fa6b417e11bd116d067c78c21.jpg" alt="contact" />
-         <div className="contact-content" data-aos="fade-right">
-          <h1>CONTACT US <br />EDEX LIFE <br />SCHOOL</h1>
+         <div className="contact-content" >
+          <h1 data-aos="fade-right">CONTACT US <br />EDEX LIFE <br />SCHOOL</h1>
          </div>
         </div>
       </div>
-      <div class="contact-section" data-aos="fade-up">
+      <div class="contact-section"data-aos="fade-up">
   <div class="contact-left">
     <h2>We’d Love to Hear from You!</h2>
     <p>Have questions about our programs? Need guidance on admissions? Reach out to us – we’re here to help!</p>
