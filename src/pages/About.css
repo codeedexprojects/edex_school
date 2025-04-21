@@ -1,5 +1,9 @@
 body {
-  font-family: "Kumbh Sans", sans-serif;}
+  font-family: "Kumbh Sans", sans-serif;
+overflow-x: hidden;
+
+}
+  
 
   .about-container {
     position: relative;
@@ -12,7 +16,6 @@ body {
     background-repeat: no-repeat;
   }
   .background-fade {
-    background-image: url(''); 
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -29,6 +32,9 @@ body {
     background-color: #000;
     position: relative;
     z-index: 1000;
+  }
+  .sec{
+    overflow-x: hidden;
   }
   
   .navbar-left {
@@ -96,6 +102,7 @@ body {
     justify-content: space-between;
     gap: 40px;
     flex-wrap: wrap;
+    overflow: hidden;
   }
   
   .about-left, .about-right {
@@ -142,6 +149,7 @@ body {
 .about p {
   width: 895px;
   font-size: 15px;
+  overflow-x: hidden;
 }
 
 
@@ -150,6 +158,9 @@ body {
   margin: 20px;
   margin-left: 50px;
   font-size: bold 50px;
+}
+.pillar {
+ overflow-x: hidden;
 }
 
 .card-container {
@@ -167,7 +178,7 @@ body {
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
+ overflow-x: hidden;
   transition: transform 0.3s;
 }
 

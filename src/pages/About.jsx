@@ -42,7 +42,7 @@ Aos.init({duration:"2000"})
   }}
 >
   <div className="overlay">
-    <div className="about-left"  data-aos="fade-left">
+    <div className="about-left">
       <h1>ABOUT</h1>
       <h1><span className='color'>EDEX LIFE</span></h1>
       <h1><span className='color'>SCHOOL</span></h1>
@@ -106,7 +106,7 @@ Aos.init({duration:"2000"})
       </div>
     </div>
   </div>
-  <div className="mission">
+  <div className="mission"data-aos="fade-right">
     <h3>Our Mission</h3>
     <p>Our mission is simple empower you to become a T-shaped professional. We help you master <br />
       your core passion while broadening your skills across multiple disciplins-preparing you to lead in yourcareer, entrepreneurship, and life .</p>
