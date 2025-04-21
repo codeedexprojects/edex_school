@@ -1,13 +1,18 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './About.css'
 import { Link } from 'react-router-dom'
 import circleImage from '/src/assets/anime.jpg'
 import { FiMenu, FiX } from 'react-icons/fi';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+
 
 
 function About() {
       const [menuOpen, setMenuOpen] = useState(false);
-  
+  useEffect(()=>{
+Aos.init({duration:"2000"})
+  },[])
   return (
     <div>
           <nav className="navbar">
@@ -37,12 +42,12 @@ function About() {
   }}
 >
   <div className="overlay">
-    <div className="about-left">
+    <div className="about-left"  data-aos="fade-left">
       <h1>ABOUT</h1>
       <h1><span className='color'>EDEX LIFE</span></h1>
       <h1><span className='color'>SCHOOL</span></h1>
     </div>
-    <div className="about-right">
+    <div className="about-right" data-aos="fade-right">
       <div className="about-text">
         <p className="main-quote">
           Where 1% daily growth leads to <br />
@@ -59,17 +64,17 @@ function About() {
 
 
     <div className="about">
-        <h3 className='sec'>Who We Are</h3>
-        <p>We're more than academy-we're a community of educators, entrepreneurs,
+        <h3 className='sec'  data-aos="fade-left">Who We Are</h3>
+        <p  data-aos="fade-right">We're more than academy-we're a community of educators, entrepreneurs,
           and innovatiors passionate about real-world learning. Our program goes beyond
           textbooks by emphasizing practical experiences.hands-on challenges, and mentorship from industry experts.
         </p>
       </div>
-      <div className="pillar">
+      <div className="pillar"  data-aos="fade-left">
         <h4>We nurture growth across four key pillars:</h4>
       </div>
       <div class="card-container">
-    <div class="card">
+    <div class="card"data-aos="fade-up-left">
       <div class="card-number">1</div>
       <div>
         <h3>Mental Development</h3>
@@ -77,7 +82,7 @@ function About() {
       </div>
     </div>
 
-    <div class="card">
+    <div class="card" data-aos="fade-up-right">
       <div class="card-number">2</div>
       <div>
         <h3>Emotional Development</h3>
@@ -85,7 +90,7 @@ function About() {
       </div>
     </div>
 
-    <div class="card">
+    <div class="card" data-aos="fade-up-left">
       <div class="card-number">3</div>
       <div>
         <h3>Physical Development</h3>
@@ -93,7 +98,7 @@ function About() {
       </div>
     </div>
 
-    <div class="card">
+    <div class="card" data-aos="fade-up-right">
       <div class="card-number">4</div>
       <div>
         <h3>Intellectual Development</h3>
@@ -111,32 +116,32 @@ function About() {
   </div>
   <div className="box">
 
-   <div className="box-section">
+   <div className="box-section" data-aos="flip-up">
    <h5>1%Better Every Day</h5>
     <p>Small,consistent improvements add upto <br />
     transformative results.</p>
    </div>
-   <div className="box-section">
+   <div className="box-section" data-aos="flip-up">
    <h5>Real-World Learning</h5>
     <p>Enjoy 90%practical training through expert<br />
     sessions, business visits, and interactive <br />
     challenges.</p>
    </div>
-   <div className="box-section">
+   <div className="box-section" data-aos="flip-up">
    <h5>Holistic Development</h5>
     <p>We nurture mind, body, and spirit to shape well- <br />
    rounded future-ready leaders.</p>
    </div>
   </div>
   <div className="divide">
-    <div className="one-section">
+    <div className="one-section" data-aos="flip-down">
       <h5>Our Story</h5>
       <p>Born from the belief the education shouldBorn from the belief that education should prepare you for life—not just exams— EDEX Life School was founded by a team of educators, entrepreneurs, and  behavioral scientists. Since our inception, we’ve reimagined learning as a daily adventure, empowering hundreds of students to unlock their potential, launch startups, and secure dream roles at leading companies.
       </p>
       
     </div>
     <hr />
-    <div className="two-section">
+    <div className="two-section" data-aos="flip-down">
       <h5>Join the<br />Movement</h5>
       <p>Whether you aspire to be a future CEO, creative innovator, or tech pioneer, EDEX  Life School is your launchpad for success. Here, you’ll gain 14 future-proof skills, a  portfolio of real projects, and a network of mentors who are ready to support you  every step of the way.
       </p>
@@ -148,9 +153,9 @@ function About() {
       src="https://img.freepik.com/premium-photo/green-background-with-green-background-that-says-word-it_745528-2406.jpg"
       alt="banner"
     />
-    <div className="banner-content">
+    <div className="banner-content" >
       <h2>Ready To Transform Your Future?</h2>
-      <button>View More</button>
+      <button  data-aos="zoom-out">View More</button>
     </div>
   </div>
 </div>

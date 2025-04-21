@@ -1,11 +1,16 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Contact.css'
 import { FiMenu, FiX } from 'react-icons/fi';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 
 function Contact() {
       const [menuOpen, setMenuOpen] = useState(false);
+      useEffect(()=>{
+Aos.init({duration:"2000"})
+      },[])
   
   return (
     <div>
@@ -28,12 +33,12 @@ function Contact() {
       <div className="contact-banner">
         <div className="image">
           <img src="https://i.pinimg.com/736x/4e/db/3b/4edb3b9fa6b417e11bd116d067c78c21.jpg" alt="contact" />
-         <div className="contact-content">
+         <div className="contact-content" data-aos="fade-right">
           <h1>CONTACT US <br />EDEX LIFE <br />SCHOOL</h1>
          </div>
         </div>
       </div>
-      <div class="contact-section">
+      <div class="contact-section" data-aos="fade-up">
   <div class="contact-left">
     <h2>We’d Love to Hear from You!</h2>
     <p>Have questions about our programs? Need guidance on admissions? Reach out to us – we’re here to help!</p>
@@ -45,7 +50,7 @@ function Contact() {
 </div>
   </div>
 
-  <div class="contact-right">
+  <div class="contact-right" data-aos="fade-up">
     <h3>Get a Call Back Now!</h3>
     <p>Fill in your details, and we'll reach out to you shortly.</p>
     <form>

@@ -1,12 +1,16 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Home.css'
 import video from "/src/assets/animation.mp4"
 import { FiMenu, FiX } from 'react-icons/fi';
-
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
+  useEffect(()=>{
+   Aos.init({duration:2000});
+  },[])
 
   return (
     <div>
@@ -28,7 +32,7 @@ function Home() {
     </nav>
 
     <div className="animation">
-    <video autoPlay loop muted playsInline className="background-video">
+    <video autoPlay  muted playsInline className="background-video">
     <source src={video} type="" />
   
   </video>
@@ -46,15 +50,15 @@ function Home() {
       <div className="subhead">
         <p>At EDEX Life School, We Believe in Learning By Doing. Our 100-days Master Course is designed to make you 1% better everyday,helping you bridge the gap between theory and Real-world Application </p>
       </div>
-      <div className="btn">
+      <div className="btn"  data-aos="zoom-in">
         <button>Apply Now</button>
       </div>
     </div>
-      <div class="batch-section">
+      <div class="batch-section" data-aos="fade-up">
   <div class="batch-left">
     <img src="https://img.freepik.com/premium-photo/smiling-teacher-educator-with-glasses-background-class_209864-66.jpg" alt="Students" />
   </div>
-  <div class="batch-right">
+  <div class="batch-right" data-aos="fade-up">
     <div class="batch-card">
       <p class="label">Next Batch Starts</p>
       <h3>May 3, 2025 !</h3>
@@ -73,30 +77,30 @@ function Home() {
     </div>
   </div>
 </div>
-<div className="unique">
+<div className="unique" data-aos="zoom-in-up">
   <h1>What makes EDEX unique?</h1>
   <p>Discover what sets EDEX Life School apart and how it can transform <br /> your learning experience.</p>
 </div>
 <div className="skill-card">
-  <div className="card1">
+  <div className="card1" data-aos="zoom-in-right">
     <h3>14 Skills</h3>
     <p>Engage in 14 weeks of structured learning for progressive growth and industry relevance.</p>
   </div>
-  <div className="card1">
+  <div className="card1" data-aos="zoom-in-right">
     <h3>Immensive Learning <br />Experience</h3>
     <p>Master essential bussiness and professional skills through hands-on learning</p>
   </div>
-  <div className="card1">
+  <div className="card1" data-aos="zoom-in-left">
     <h3>Real-Life Business <br />Projects</h3>
     <p>Gain practical experience by working on real business challenges.</p>
   </div>
-  <div className="card1">
+  <div className="card1" data-aos="zoom-in-left">
     <h3>Expert Talks</h3>
     <p>Learn from top industry leaders and successful entrepreneurs during 14 insightful sessions.</p>
   </div>
 </div>
 <div style={{display:"flex",justifyContent:"center"}}>
-<div className="card1" style={{width:"295px", textAlign:"center",alignItems:"center"}}>
+<div className="card1" data-aos="zoom-out" style={{width:"295px", textAlign:"center",alignItems:"center"}}>
 <h3>Strategic Games</h3>
 <p>Develop leadership problem-solving, and negotiation <br />skills through high-impact simulations.</p>
 
@@ -107,26 +111,26 @@ function Home() {
   <h1>Meet Our Community</h1>
   <p>Discover the diverse individuals who have transformed their education <br /> into experience at EDEX Life School.</p>
 </div>
-<div className="img-card" >
-<div className="cards">
+<div className="img-card"  >
+<div className="cards" data-aos="flip-left">
   <img src="https://voyagehouston.com/wp-content/uploads/2022/08/c-PersonalDanielGarciaPrats__MG6384_1655264614439-1000x600.jpg" alt="" />
   <h3>Emily Johnson</h3>
   <p>A recent graduate eager to gain real-world business exposure and develop leadership skills to kickstart her career in the corporate world.</p>
 </div>
-<div className="cards">
+<div className="cards" data-aos="flip-left">
   <img src="https://images.pexels.com/photos/736716/pexels-photo-736716.jpeg?cs=srgb&dl=adult-beach-beard-736716.jpg&fm=jpg" alt="" />
   <h3>Emily Johnson</h3>
   <p>A recent graduate eager to gain real-world business exposure and develop leadership skills to kickstart her career in the corporate world.</p>
 </div>
-<div className="cards">
+<div className="cards" data-aos="flip-left">
   <img src="https://www.allprodad.com/wp-content/uploads/2021/03/05-12-21-happy-people.jpg" alt="" />
   <h3>Emily Johnson</h3>
   <p>A recent graduate eager to gain real-world business exposure and develop leadership skills to kickstart her career in the corporate world.</p>
 </div>
 </div>
-<div className="list">
+<div className="list"  data-aos="fade-right">
   <h2>Who is this for?</h2>
-  <ul>
+  <ul  data-aos="fade-right">
     <li>Graduate seeking practical experience</li>
     <li>Entrepreneurs aiming to building stronger business acumen</li>
     <li>Professionals looking to enhance leadership and decision-making skills.</li>
@@ -134,7 +138,7 @@ function Home() {
   </ul>
 </div>
 <div class="card-container">
-    <div class="card">
+    <div class="card" data-aos="fade-up-right">
       <div class="card-number">1</div>
       <div>
         <h3>Mental Development</h3>
@@ -142,7 +146,7 @@ function Home() {
       </div>
     </div>
 
-    <div class="card">
+    <div class="card" data-aos="fade-up-right">
       <div class="card-number">2</div>
       <div>
         <h3>Emotional Development</h3>
@@ -150,7 +154,7 @@ function Home() {
       </div>
     </div>
 
-    <div class="card">
+    <div class="card" data-aos="fade-up-left">
       <div class="card-number">3</div>
       <div>
         <h3>Physical Development</h3>
@@ -158,7 +162,7 @@ function Home() {
       </div>
     </div>
 
-    <div class="card">
+    <div class="card" data-aos="fade-up-left">
       <div class="card-number">4</div>
       <div>
         <h3>Intellectual Development</h3>
