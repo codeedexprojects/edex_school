@@ -32,9 +32,9 @@ overflow-x: hidden;
     animation: fadeIn 2s ease-in-out forwards;
   }
  
-  .sec{
+  /* .sec{
     overflow-x: hidden;
-  }
+  } */
   
   .navbar-left {
     flex: 1;

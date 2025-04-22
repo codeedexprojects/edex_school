@@ -7,7 +7,7 @@ body{
    
   }
   .logo{
-    height: 90px;
+    height: 50px;
     object-fit: contain;
   }
   .navbar-left {
@@ -126,6 +126,10 @@ body{
 
   }
   
+  .week-content,.group,.works,.themes,.four-box,.connect-home,.footer{
+    max-width: 100%;
+    overflow-x: hidden;
+  }
   .four-content {
     display: flex;
     gap: 40px;

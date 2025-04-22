@@ -49,10 +49,10 @@ function Home() {
         <h3>Grow.</h3>
       </div>
       <div className="subhead">
-        <p>At EDEX Life School, We Believe in Learning By Doing. Our 100-days Master Course is designed to make you 1% better everyday,helping you bridge the gap between theory and Real-world Application </p>
+        <p data-aos="zoom-in">At EDEX Life School, We Believe in Learning By Doing. Our 100-days Master Course is designed to make you 1% better everyday,helping you bridge the gap between theory and Real-world Application </p>
       </div>
-      <div className="btn"  data-aos="zoom-in">
-        <button>Apply Now</button>
+      <div className="btn"  >
+        <button data-aos="zoom-in">Apply Now</button>
       </div>
     </div>
       <div class="batch-section" data-aos="fade-up">
@@ -83,25 +83,25 @@ function Home() {
   <p>Discover what sets EDEX Life School apart and how it can transform <br /> your learning experience.</p>
 </div>
 <div className="skill-card">
-  <div className="card1" data-aos="zoom-in-right">
+  <div className="card1" data-aos="zoom-in">
     <h3>14 Skills</h3>
     <p>Engage in 14 weeks of structured learning for progressive growth and industry relevance.</p>
   </div>
-  <div className="card1" data-aos="zoom-in-right">
+  <div className="card1"data-aos="zoom-in">
     <h3>Immensive Learning <br />Experience</h3>
     <p>Master essential bussiness and professional skills through hands-on learning</p>
   </div>
-  <div className="card1" data-aos="zoom-in-left">
+  <div className="card1"data-aos="zoom-in" >
     <h3>Real-Life Business <br />Projects</h3>
     <p>Gain practical experience by working on real business challenges.</p>
   </div>
-  <div className="card1" data-aos="zoom-in-left">
+  <div className="card1" data-aos="zoom-in">
     <h3>Expert Talks</h3>
     <p>Learn from top industry leaders and successful entrepreneurs during 14 insightful sessions.</p>
   </div>
 </div>
 <div style={{display:"flex",justifyContent:"center"}}>
-<div className="card1" data-aos="zoom-out" style={{width:"295px", textAlign:"center",alignItems:"center"}}>
+<div className="card1" data-aos="zoom-in" style={{width:"295px", textAlign:"center",alignItems:"center"}}>
 <h3>Strategic Games</h3>
 <p>Develop leadership problem-solving, and negotiation <br />skills through high-impact simulations.</p>
 
@@ -109,7 +109,7 @@ function Home() {
 </div>
 </div>
 <div className="community">
-  <h1>Meet Our Community</h1>
+  <h1 >Meet Our Community</h1>
   <p>Discover the diverse individuals who have transformed their education <br /> into experience at EDEX Life School.</p>
 </div>
 <div className="img-card"  >
@@ -129,17 +129,17 @@ function Home() {
   <p>A recent graduate eager to gain real-world business exposure and develop leadership skills to kickstart her career in the corporate world.</p>
 </div>
 </div>
-<div className="list"  data-aos="fade-right">
-  <h2>Who is this for?</h2>
-  <ul  data-aos="fade-right">
-    <li>Graduate seeking practical experience</li>
-    <li>Entrepreneurs aiming to building stronger business acumen</li>
-    <li>Professionals looking to enhance leadership and decision-making skills.</li>
-    <li>Career Fast Trackers who want to accelerate their career growth</li>
+<div className="list" >
+  <h2 data-aos="fade-up">Who is this for?</h2>
+  <ul  >
+    <li data-aos="fade-up">Graduate seeking practical experience</li>
+    <li data-aos="fade-up">Entrepreneurs aiming to building stronger business acumen</li>
+    <li data-aos="fade-up">Professionals looking to enhance leadership and decision-making skills.</li>
+    <li data-aos="fade-up">Career Fast Trackers who want to accelerate their career growth</li>
   </ul>
 </div>
 <div class="card-container">
-    <div class="card" data-aos="fade-up-right">
+    <div class="card" data-aos="flip-down">
       <div class="card-number">1</div>
       <div>
         <h3>Mental Development</h3>
@@ -147,7 +147,7 @@ function Home() {
       </div>
     </div>
 
-    <div class="card" data-aos="fade-up-right">
+    <div class="card" data-aos="flip-down">
       <div class="card-number">2</div>
       <div>
         <h3>Emotional Development</h3>
@@ -155,7 +155,7 @@ function Home() {
       </div>
     </div>
 
-    <div class="card" data-aos="fade-up-left">
+    <div class="card" data-aos="flip-down">
       <div class="card-number">3</div>
       <div>
         <h3>Physical Development</h3>
@@ -163,7 +163,7 @@ function Home() {
       </div>
     </div>
 
-    <div class="card" data-aos="fade-up-left">
+    <div class="card" data-aos="flip-down">
       <div class="card-number">4</div>
       <div>
         <h3>Intellectual Development</h3>

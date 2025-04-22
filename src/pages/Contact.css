@@ -31,16 +31,7 @@ body{
   }
   
   
-  .head1 {
-    margin: 0;
-    font-size: 28px;
-    font-weight: bold;
-    color: #fffefe;
-  }
-  .head1:hover {
-    color: #9bff37;
-  }
-  
+ 
  
   .navbar-right h3 {
     margin: 0;

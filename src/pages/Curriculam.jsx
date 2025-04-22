@@ -74,36 +74,36 @@ Aos.init({duration:"2000"});
   </div>
 </div>
 {/* <hr /> */}
-<div className="works" data-aos="fade-right">
-  <h1>How It Works</h1>
+<div className="works">
+  <h1  data-aos="zoom-in-up">How It Works</h1>
 
   <div className="works-section">
     {/* Left Side */}
-    <div className="left-works" data-aos="fade-up-right">
-      <div className="sub-works">
+    <div className="left-works" >
+      <div className="sub-works"  data-aos="zoom-in-up">
         <h5>Daily Tasks</h5>
         <p>Boost your progress by 1% everyday</p>
       </div>
-      <hr />
-      <div className="sub-works">
+      <hr  data-aos="zoom-in-up"/>
+      <div className="sub-works"  data-aos="zoom-in-up">
         <h5>Reflection</h5>
         <p>Track growth through your journals and peer feedback</p>
       </div>
     </div>
 
     {/* Right Side */}
-    <div className="right-works"data-aos="fade-up-left">
-      <div className="sub-left">
+    <div className="right-works">
+      <div className="sub-left"  data-aos="zoom-in-up">
         <h5>Expert Session</h5>
         <p>Learn directly from industry leaders</p>
       </div>
-      <hr />
-      <div className="sub-left">
+      <hr  data-aos="zoom-in-up"/>
+      <div className="sub-left"  data-aos="zoom-in-up">
         <h5>Business Visits</h5>
         <p>Gain insight with real-world exposure</p>
       </div>
-      <hr />
-      <div className="sub-left">
+      <hr  data-aos="zoom-in-up"/>
+      <div className="sub-left"  data-aos="zoom-in-up">
         <h5>Interactive Games</h5>
         <p>Develop skills through practical challenges</p>
       </div>
@@ -117,75 +117,75 @@ Aos.init({duration:"2000"});
   <a href="#" className="view-more">View more</a>
 </div>
 
-  <div className="theme-cards-container"data-aos="flip-up">
-<div className="theme-cards">
+  <div className="theme-cards-container"  >
+<div className="theme-cards" data-aos="flip-right">
   <h2>Week 1: <br />
   Self- <br />Awareness & <br />vision</h2>
   <p> Discover your <br />strengths and set <br />your personal vision.</p>
 </div>
-<div className="theme-cards">
+<div className="theme-cards" data-aos="flip-right">
   <h2>Week 2: <br />
   Resilience</h2>
   <p> Learn to manage <br /> stress and bounce <br />back from challenges.
   </p>
 </div>
-<div className="theme-cards">
+<div className="theme-cards"data-aos="flip-right">
   <h2>Week 3: <br />
   Critical <br /> Thinking</h2>
   <p> Practice solving real-<br/> world problems.</p>
 </div>
-<div className="theme-cards">
+<div className="theme-cards" data-aos="flip-right">
   <h2>Week 4: <br />
   Emotional <br /> Intelligence</h2>
   <p> Enhance your ability <br /> to connect and lead <br /> with empathy.
   </p>
 </div>
-<div className="theme-cards">
+<div className="theme-cards" data-aos="flip-right">
   <h2>Week 5: <br />
   Creativity</h2>
   <p>Think outside the <br /> box and spark <br /> innovation.</p>
 </div>
-<div className="theme-cards">
+<div className="theme-cards" data-aos="flip-right">
   <h2>Week 6: <br />
   Entrepreneu-<br />rship</h2>
   <p> Explore what it takes <br /> to start and run a <br /> bussiness.</p>
 </div>
-<div className="theme-cards">
+<div className="theme-cards" data-aos="flip-right">
   <h2>Week 7: <br />
   Financial <br /> Literacy</h2>
   <p>Understand money <br />management and <br /> basic investing.</p>
 </div>
-<div className="theme-cards">
+<div className="theme-cards" data-aos="flip-right">
   <h2>Week 8: <br />
   Adaptability</h2>
   <p> Learn to adjust <br /> quickly to new <br /> situations.</p>
 </div>
-<div className="theme-cards">
+<div className="theme-cards" data-aos="flip-right">
   <h2>Week 9: <br />
   Leadership</h2>
   <p> Develop skills to <br /> guide and inspire <br /> others.</p>
 </div>
-<div className="theme-cards">
+<div className="theme-cards" data-aos="flip-right">
   <h2>Week 10: <br />
  Communicat-<br />ion</h2>
   <p>Master clear and persuasive <br />communication.</p>
 </div>
-<div className="theme-cards">
+<div className="theme-cards" data-aos="flip-right">
   <h2>Week 11: <br />
   Collaboration</h2>
   <p>Work effectively in <br /> teams.</p>
 </div>
-<div className="theme-cards">
+<div className="theme-cards" data-aos="flip-right">
   <h2>Week 12: <br />
   Digital Skills</h2>
   <p>Build fluency in <br /> technology and <br /> digital tools.</p>
 </div>
-<div className="theme-cards">
+<div className="theme-cards" data-aos="flip-right">
   <h2>Week 13: <br />
   Cultural <br /> Intelligence</h2>
   <p>Embrace global <br />perspective and <br /> diversity.</p>
 </div>
-<div className="theme-cards">
+<div className="theme-cards" data-aos="flip-right">
   <h2>Week 14: <br />
   Entreprene-<br/>urial Grit</h2>
   <p>Put it all together <br />pitch your project <br />and celebrate your <br />growth.</p>

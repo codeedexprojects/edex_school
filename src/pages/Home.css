@@ -16,7 +16,8 @@ padding: 5px;
  
 }
 .logo{
-  height: 90px;
+  height: 50px;
+ 
   object-fit: contain;
 }
 .navbar-left {
@@ -122,16 +123,7 @@ padding: 5px;
   }
 }
 
-.head1 {
-  margin: 0;
-  font-size: 28px;
-  font-weight: bold;
-  color: #fffefe;
-}
 
-.head1:hover {
-  color: #CDFF00;
-}
 
 .home-heading {
   text-align: center;

@@ -44,18 +44,18 @@ Aos.init({duration:"2000"})
   }}
 >
   <div className="overlay">
-    <div className="about-left">
+    <div className="about-left" data-aos="zoom-out-up">
       <h1>ABOUT</h1>
       <h1><span className='color'>EDEX LIFE</span></h1>
       <h1><span className='color'>SCHOOL</span></h1>
     </div>
-    <div className="about-right" data-aos="fade-right">
+    <div className="about-right" >
       <div className="about-text">
-        <p className="main-quote">
+        <p className="main-quote" data-aos="zoom-out-up">
           Where 1% daily growth leads to <br />
           100% transformational change
         </p>
-        <p className="sub-text">
+        <p className="sub-text" data-aos="zoom-out-up">
           At EDEX Life School, we believe greatness is built day by day.
           We're a 14-Week immersive academy designed to equip you with the skills, mindset, and grit needed to thrive in today's unpredictable world.
         </p>
@@ -66,17 +66,19 @@ Aos.init({duration:"2000"})
 
 
     <div className="about">
-        <h3 className='sec'  data-aos="fade-left">Who We Are</h3>
-        <p  data-aos="fade-right">We're more than academy-we're a community of educators, entrepreneurs,
+        <h3 className='sec' data-aos="zoom-in-up">Who We Are</h3>
+        <p data-aos="zoom-in-up">We're more than academy-we're a community of educators, entrepreneurs,
           and innovatiors passionate about real-world learning. Our program goes beyond
           textbooks by emphasizing practical experiences.hands-on challenges, and mentorship from industry experts.
         </p>
       </div>
-      <div className="pillar"  data-aos="fade-left">
-        <h4>We nurture growth across four key pillars:</h4>
+      <div className="pillar" >
+        <h4 data-aos="zoom-in-up">We nurture growth across four key pillars:</h4>
       </div>
       <div class="card-container">
-    <div class="card"data-aos="fade-up-left">
+    <div class="card" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
       <div class="card-number">1</div>
       <div>
         <h3>Mental Development</h3>
@@ -84,7 +86,9 @@ Aos.init({duration:"2000"})
       </div>
     </div>
 
-    <div class="card" data-aos="fade-up-right">
+    <div class="card" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
       <div class="card-number">2</div>
       <div>
         <h3>Emotional Development</h3>
@@ -92,7 +96,9 @@ Aos.init({duration:"2000"})
       </div>
     </div>
 
-    <div class="card" data-aos="fade-up-left">
+    <div class="card" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
       <div class="card-number">3</div>
       <div>
         <h3>Physical Development</h3>
@@ -100,7 +106,9 @@ Aos.init({duration:"2000"})
       </div>
     </div>
 
-    <div class="card" data-aos="fade-up-right">
+    <div class="card" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
       <div class="card-number">4</div>
       <div>
         <h3>Intellectual Development</h3>
@@ -108,9 +116,9 @@ Aos.init({duration:"2000"})
       </div>
     </div>
   </div>
-  <div className="mission"data-aos="fade-right">
-    <h3>Our Mission</h3>
-    <p>Our mission is simple empower you to become a T-shaped professional. We help you master <br />
+  <div className="mission" >
+    <h3 data-aos="zoom-in-down">Our Mission</h3>
+    <p data-aos="zoom-in-down">Our mission is simple empower you to become a T-shaped professional. We help you master <br />
       your core passion while broadening your skills across multiple disciplins-preparing you to lead in yourcareer, entrepreneurship, and life .</p>
   </div>
   <div className="choose">
