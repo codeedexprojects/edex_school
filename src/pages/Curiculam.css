@@ -6,6 +6,7 @@ body{
     background-color: hsl(0, 0%, 98%);
    
   }
+
   
   .works h1 {
    margin-left: 60px;
@@ -231,6 +232,7 @@ body{
     /* gap: 50px; */
     /* padding: 40px 80px; */
     flex-wrap: wrap;
+    padding-top: 70px;
   }
   
   .week-left {

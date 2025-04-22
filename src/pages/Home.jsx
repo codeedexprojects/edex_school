@@ -15,8 +15,8 @@ function Home() {
   return (
     <div>
            <nav className="navbar">
-      <div className="navbar-left">
-        <h2 className="head1">EDEX</h2>
+      <div className="navbar-left" >
+        <h2 className="head1" >EDEX</h2>
       </div>
 
       <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>

@@ -14,7 +14,7 @@ Aos.init({duration:"2000",overflow:"hidden"})
   
   return (
     <div>
-          <nav className="navbar">
+          <nav className="navbar" >
             <div className="navbar-left">
               <h2 className="head1">EDEX</h2>
             </div>
