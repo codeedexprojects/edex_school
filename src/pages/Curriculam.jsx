@@ -75,37 +75,37 @@ Aos.init({duration:"2000"});
 </div>
 {/* <hr /> */}
 <div className="works">
-  <h1  data-aos="zoom-in-up">How It Works</h1>
+  <h1  data-aos="fade-up">How It Works</h1>
 
   <div className="works-section">
     {/* Left Side */}
     <div className="left-works" >
-      <div className="sub-works"  data-aos="zoom-in-up">
-        <h5>Daily Tasks</h5>
-        <p>Boost your progress by 1% everyday</p>
+      <div className="sub-works" >
+        <h5 data-aos="fade-up">Daily Tasks</h5>
+        <p data-aos="fade-up">Boost your progress by 1% everyday</p>
       </div>
-      <hr  data-aos="zoom-in-up"/>
-      <div className="sub-works"  data-aos="zoom-in-up">
-        <h5>Reflection</h5>
-        <p>Track growth through your journals and peer feedback</p>
+      <hr  data-aos="fade-up"/>
+      <div className="sub-works">
+        <h5 data-aos="fade-up">Reflection</h5>
+        <p data-aos="fade-up">Track growth through your journals and peer feedback</p>
       </div>
     </div>
 
     {/* Right Side */}
     <div className="right-works">
-      <div className="sub-left"  data-aos="zoom-in-up">
-        <h5>Expert Session</h5>
-        <p>Learn directly from industry leaders</p>
+      <div className="sub-left">
+        <h5 data-aos="fade-up">Expert Session</h5>
+        <p data-aos="fade-up">Learn directly from industry leaders</p>
       </div>
-      <hr  data-aos="zoom-in-up"/>
-      <div className="sub-left"  data-aos="zoom-in-up">
-        <h5>Business Visits</h5>
-        <p>Gain insight with real-world exposure</p>
+      <hr data-aos="fade-up"/>
+      <div className="sub-left"  >
+        <h5 data-aos="fade-up">Business Visits</h5>
+        <p data-aos="fade-up">Gain insight with real-world exposure</p>
       </div>
-      <hr  data-aos="zoom-in-up"/>
-      <div className="sub-left"  data-aos="zoom-in-up">
-        <h5>Interactive Games</h5>
-        <p>Develop skills through practical challenges</p>
+      <hr  data-aos="fade-up"/>
+      <div className="sub-left">
+        <h5   data-aos="fade-up">Interactive Games</h5>
+        <p   data-aos="fade-up">Develop skills through practical challenges</p>
       </div>
     </div>
   </div>

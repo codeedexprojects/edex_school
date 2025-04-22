@@ -113,6 +113,11 @@ body{
     align-items: center;
   }
   
+  .week-content,.group,.works,.themes,.four-box,.connect-home,.footer{
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
   .view-more {
     color: #fff;
     font-size: 14px;
@@ -126,10 +131,6 @@ body{
 
   }
   
-  .week-content,.group,.works,.themes,.four-box,.connect-home,.footer{
-    max-width: 100%;
-    overflow-x: hidden;
-  }
   .four-content {
     display: flex;
     gap: 40px;
@@ -147,7 +148,7 @@ body{
   
   .four-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
   
@@ -295,6 +296,11 @@ body{
       flex-direction: column;
       padding: 20px;
     }
+    
+      .four-grid {
+        grid-template-columns: 1fr;
+      }
+    
   
     .week-left,
     .week-right {
