@@ -5,6 +5,7 @@ import video from "/src/assets/animation.mp4"
 import { FiMenu, FiX } from 'react-icons/fi';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
+import logo from '/src/assets/header.jpg'
 
 function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -16,7 +17,7 @@ function Home() {
     <div>
            <nav className="navbar">
       <div className="navbar-left" >
-        <h2 className="head1" >EDEX</h2>
+        <img  src={logo} alt="edexlogo" className='logo' />
       </div>
 
       <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>

@@ -3,9 +3,8 @@ body{
 }
 
 
-.head1{
-    color: white;
-}
+
+
 .navbar-right{
     display: flex;
     justify-content:space-between;
@@ -59,7 +58,7 @@ body{
     width: 100%;
     max-height: 70vh;
     overflow: hidden;
-    padding-top: 70px;
+    padding-top: 40px;
   }
   
   .image {

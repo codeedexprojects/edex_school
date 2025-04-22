@@ -3,6 +3,13 @@ body {
 overflow-x: hidden;
 
 }
+.logo{
+  height: 90px;
+  object-fit: contain;
+}
+.navbar-left {
+  padding-left: 16px;
+}
   
 
   .about-container {
