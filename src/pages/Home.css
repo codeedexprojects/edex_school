@@ -1,35 +1,30 @@
 body {
   background-color: black;
   font-family: "Kumbh Sans", sans-serif;
-    margin: 0;
+  margin: 0;
   padding: 0;
-
 }
-
 
 .navbar {
-position: fixed;
-width: 100%;
-background-color: #000000;
-z-index: 1000;
-padding: 5px;
- 
+  position: fixed;
+  width: 100%;
+  background-color: #000000;
+  z-index: 1000;
+  padding: 5px;
 }
-.logo{
+.logo {
   height: 50px;
- 
+
   object-fit: contain;
 }
 .navbar-left {
   padding-left: 16px;
 }
 
-
 .navbar-right {
   display: flex;
   gap: 32px;
   transition: transform 0.3s ease;
- 
 }
 
 .navbar-right h3 {
@@ -37,7 +32,6 @@ padding: 5px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
-
 }
 
 .navbar-right h3 a {
@@ -48,7 +42,7 @@ padding: 5px;
 
 .navbar-right h3 a:hover,
 .navbar-right h3:hover {
-  color: #CDFF00;
+  color: #cdff00;
 }
 
 /* Menu icon (hidden on desktop) */
@@ -57,7 +51,6 @@ padding: 5px;
   cursor: pointer;
   z-index: 1100;
 }
-
 
 @media (max-width: 768px) {
   .menu-icon {
@@ -123,8 +116,6 @@ padding: 5px;
   }
 }
 
-
-
 .home-heading {
   text-align: center;
   margin-top: 75px;
@@ -167,7 +158,7 @@ padding: 5px;
 }
 
 .btn button {
-  background-color: #CDFF00;
+  background-color: #cdff00;
   border-radius: 8px;
   padding: 10px;
   width: 180px;
@@ -290,7 +281,7 @@ padding: 5px;
 }
 
 .cards:hover {
-  box-shadow: 0 0 25px 5px #CDFF00;
+  box-shadow: 0 0 25px 5px #cdff00;
   transform: translateY(-5px);
 }
 
@@ -312,7 +303,7 @@ padding: 5px;
 }
 
 .card1:hover {
-  background-color:#CDFF00;
+  background-color: #cdff00;
   color: white;
 }
 
@@ -349,7 +340,7 @@ padding: 5px;
   font-size: 30px;
   font-weight: bold;
   margin-right: 20px;
-  background-color:#CDFF00;
+  background-color: #cdff00;
   color: black;
   width: 40px;
   height: 40px;
@@ -419,7 +410,7 @@ padding: 5px;
 }
 
 .home-image button:hover {
-  background-color:#CDFF00;
+  background-color: #cdff00;
 }
 
 /* Footer Styles */
@@ -469,7 +460,7 @@ padding: 5px;
 }
 
 .social-icons i:hover {
-  color:#CDFF00;
+  color: #cdff00;
 }
 
 .footer-column h4 {
@@ -506,7 +497,7 @@ padding: 5px;
 }
 
 .footer-column button {
-  background-color:#CDFF00;
+  background-color: #cdff00;
   color: black;
   border: none;
   padding: 10px 15px;
@@ -526,21 +517,21 @@ padding: 5px;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .batch-left {
     width: 100%;
     display: flex;
     justify-content: center;
   }
-  
+
   .batch-right {
     width: 100%;
   }
-  
+
   .unique h1 {
     font-size: 2.5rem;
   }
-  
+
   .community h1 {
     font-size: 2.5rem;
   }
@@ -551,47 +542,47 @@ padding: 5px;
     flex-direction: column;
     padding: 16px;
   }
-  
+
   .navbar-right {
     margin-top: 15px;
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
   }
-  
+
   .home-heading h1 {
     font-size: 40px;
   }
-  
+
   .sub {
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 10px;
   }
-  
+
   .batch-right {
     grid-template-columns: 1fr;
   }
-  
+
   .skill-card {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .card1 {
     margin-left: 0;
     text-align: center;
   }
-  
+
   .unique h1 {
     font-size: 2rem;
   }
-  
+
   .community h1 {
     font-size: 2rem;
   }
-  
+
   .footer-column {
     flex: 100%;
   }
@@ -601,27 +592,27 @@ padding: 5px;
   .navbar-right {
     gap: 15px;
   }
-  
+
   .navbar-right h3 {
     font-size: 16px;
   }
-  
+
   .home-heading h1 {
     font-size: 30px;
   }
-  
+
   .home-image h2 {
     font-size: 24px;
   }
-  
+
   .home-image h5 {
     font-size: 14px;
   }
-  
+
   .list h2 {
     font-size: 30px;
   }
-  
+
   .card-number {
     width: 30px;
     height: 30px;

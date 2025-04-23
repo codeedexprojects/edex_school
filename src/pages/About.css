@@ -1,139 +1,137 @@
 body {
   font-family: "Kumbh Sans", sans-serif;
-overflow-x: hidden;
-
+  overflow-x: hidden;
 }
-.logo{
+.logo {
   height: 90px;
   object-fit: contain;
 }
 .navbar-left {
   padding-left: 16px;
 }
-  
 
-  .about-container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 80px 60px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  .background-fade {
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
+.about-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 60px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.background-fade {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
   padding-top: 70px;
-    opacity: 0;
-    animation: fadeIn 2s ease-in-out forwards;
-  }
- 
-  /* .sec{
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+/* .sec{
     overflow-x: hidden;
   } */
-  
-  .navbar-left {
-    flex: 1;
+
+.navbar-left {
+  flex: 1;
+}
+
+.navbar-right-desktop {
+  display: flex;
+  gap: 32px;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    position: relative;
   }
-  
+
   .navbar-right-desktop {
-    display: flex;
-    gap: 32px;
-  }
-  
-  .menu-icon {
     display: none;
-    cursor: pointer;
-    z-index: 1100;
   }
-  
-  @media (max-width: 768px) {
-    .navbar {
-      position: relative; 
-    }
-  
-    .navbar-right-desktop {
-      display: none;
-    }
-  
-    .menu-icon {
-      display: block;
-      position: absolute;
-      right: 32px; /* 👈 This puts the icon on the right side */
-      top: 16px;
-    }
-  
-    .navbar-right-mobile {
-      position: fixed;
-      top: 0;
-      right: 0;
-      height: 100vh;
-      width: 70%;
-      background-color: #000000f2;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 40px;
-      transform: translateX(100%);
-      transition: transform 0.3s ease;
-      display: flex;
-    }
-  
-    .navbar-right-mobile.open {
-      transform: translateX(0);
-    }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    right: 32px; /* 👈 This puts the icon on the right side */
+    top: 16px;
   }
-  
-  @keyframes fadeIn {
-    to {
-      opacity: 1;
-    }
-  }
-  
-  .overlay {
-    padding: 60px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+
+  .navbar-right-mobile {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 70%;
+    background-color: #000000f2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 40px;
-    flex-wrap: wrap;
-    overflow: hidden;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    display: flex;
   }
-  
-  .about-left, .about-right {
-    flex: 1;
+
+  .navbar-right-mobile.open {
+    transform: translateX(0);
   }
-  
-  .about-left h1 {
-    font-size: 64px;
-    font-weight: 700;
-    color: #fff9f9;
-    margin: 10px 0;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
   }
-  
-  .color {
-    color: #CDFF00;
-  }
-  
-  .main-quote {
-    font-size: 24px;
-    font-weight: 800;
-    color: #fff8f8;
-    margin-bottom: 16px;
-    line-height: 1.5;
-  }
-  
-  .sub-text {
-    font-size: 16px;
-    font-weight: 400;
-    color: #ffffff;
-    line-height: 1.6;
-  }
-  
+}
+
+.overlay {
+  padding: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.about-left,
+.about-right {
+  flex: 1;
+}
+
+.about-left h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #fff9f9;
+  margin: 10px 0;
+}
+
+.color {
+  color: #cdff00;
+}
+
+.main-quote {
+  font-size: 24px;
+  font-weight: 800;
+  color: #fff8f8;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.sub-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 1.6;
+}
 
 .about {
   margin: 20px;
@@ -151,7 +149,6 @@ overflow-x: hidden;
   overflow-x: hidden;
 }
 
-
 .pillar {
   color: white;
   margin: 20px;
@@ -159,7 +156,7 @@ overflow-x: hidden;
   font-size: bold 50px;
 }
 .pillar {
- overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .card-container {
@@ -177,7 +174,7 @@ overflow-x: hidden;
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
- overflow-x: hidden;
+  overflow-x: hidden;
   transition: transform 0.3s;
 }
 
@@ -193,7 +190,7 @@ overflow-x: hidden;
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(120deg, transparent, #CDFF00, transparent);
+  background: linear-gradient(120deg, transparent, #cdff00, transparent);
   z-index: 0;
   transition: left 0.5s ease-in-out;
 }
@@ -231,10 +228,10 @@ overflow-x: hidden;
 
 @keyframes flowLight {
   0% {
-      left: -100%;
+    left: -100%;
   }
   100% {
-      left: 100%;
+    left: 100%;
   }
 }
 
@@ -298,7 +295,7 @@ overflow-x: hidden;
 
 .divide hr {
   margin: 0;
-  border: 1px solid #CDFF00;
+  border: 1px solid #cdff00;
   width: 80%;
   margin-left: 175px;
   margin-top: 20px;
@@ -344,7 +341,7 @@ overflow-x: hidden;
 }
 
 .banner-content button {
-  background-color:#CDFF00;
+  background-color: #cdff00;
   color: white;
   font-size: 16px;
   font-weight: 600;
@@ -360,7 +357,7 @@ overflow-x: hidden;
   background-color: #000;
   color: #fff;
   padding: 60px 40px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .footer-container {
@@ -437,7 +434,7 @@ overflow-x: hidden;
 }
 
 .footer-column button:hover {
-  background-color: #CDFF00;
+  background-color: #cdff00;
   color: white;
 }
 
@@ -445,7 +442,6 @@ overflow-x: hidden;
   font-size: 12px;
   line-height: 1.5;
 }
-
 
 @media (max-width: 768px) {
   .about-container {
@@ -495,7 +491,7 @@ overflow-x: hidden;
     padding: 16px;
     text-align: center;
   }
- 
+
   .one-section,
   .two-section {
     flex-direction: column;
