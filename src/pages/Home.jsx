@@ -271,8 +271,9 @@ function Home() {
           <br />
           <h5>Batch Start Date: May 3, 2025</h5>
           <br />
-          <button>Apply Now</button>
-        </div>
+          <a href="https://forms.gle/39rjF6kV9jtHihqH9" target="_blank" rel="noopener noreferrer">
+  <button data-aos="zoom-in">Apply Now</button>
+</a>        </div>
       </div>
       <footer className="footer">
         <div className="footer-container">
