@@ -271,9 +271,14 @@ function Home() {
           <br />
           <h5>Batch Start Date: May 3, 2025</h5>
           <br />
-          <a href="https://forms.gle/39rjF6kV9jtHihqH9" target="_blank" rel="noopener noreferrer">
-  <button data-aos="zoom-in">Apply Now</button>
-</a>        </div>
+          <a
+            href="https://forms.gle/39rjF6kV9jtHihqH9"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button data-aos="zoom-in">Apply Now</button>
+          </a>{" "}
+        </div>
       </div>
       <footer className="footer">
         <div className="footer-container">
@@ -284,9 +289,27 @@ function Home() {
             </h2>
             <p className="slogan">Learn. Apply. Grow.</p>
             <div className="social-icons">
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands fa-whatsapp"></i>
+              <a
+                href="https://youtube.com/@edexlifeschool?si=rUOWcRAm65NArbXa"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa-brands fa-youtube text-white"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/edex_life_school?igsh=MXV2MGp6cnk3d25waw=="
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa-brands fa-instagram text-white"></i>
+              </a>
+              <a
+                href="https://wa.me/+919656439246"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa-brands fa-whatsapp text-white"></i>
+              </a>
             </div>
           </div>
 
@@ -306,7 +329,8 @@ function Home() {
             <h4>Address</h4>
             <p>Cherpulassery, Kerala</p>
             <h4>Phone & mail</h4>
-            <p>+91 12345 12345</p>
+            <p>+91 96564 39246</p>
+            <p>+918891719496</p>
             <p>info@edexlifeschool</p>
           </div>
 

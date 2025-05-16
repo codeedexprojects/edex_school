@@ -5,6 +5,9 @@ import { FiMenu, FiX } from "react-icons/fi";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import logo from "/src/assets/header.jpg";
+import frontimage from '/src/assets/graduate.png'
+import manImage from '/src/assets/man.png'
+
 
 function Curriculam() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -51,7 +54,7 @@ function Curriculam() {
         </div>
       </nav>
 
-      <div className="week-content">
+      <div className="week-content" style={{paddingTop:"200px"}}>
         <div className="week-left" data-aos="fade-left">
           <h1>
             EDEX LIFE <br />
@@ -69,7 +72,7 @@ function Curriculam() {
 
         <div className="week-right" data-aos="fade-right">
           <img
-            src="https://s3-alpha-sig.figma.com/img/f6e8/c3e5/4570a178df692e27609600dcc97c6971?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=qj4WzfqwuGGCVtyEhU8lw8wDvHexQA9cM3j~7vG-VRH-X-w7K7mq25lp9l40pjj5JXlVLbDF43s4qr9fwOxbfrAkw5jU4yXkUQpTCy~NwZ71PdiHQRfMq7Ggz5FYLwJzNw95B0jrbX~r1JS4Fa21oDOYciNBjqtRFFLmD4VVQVIN1MgkqdBRzB6jfIEgYF6~0nMIBgIsI1UIBp62PDmLDRVqcxdVhFEpdCkKqEEOX0y7VK3bBMCinTRsagkAuYhanWgBa0lLs7Ezv4F53U3MymPYvPLadz2~8lym9leH8kf6rMF6y3OPTctzv5vyQo8w8F4v71frFSEPsGSB-RIppA__"
+            src={frontimage}
             alt="EDEX Visual"
           />
         </div>
@@ -310,7 +313,7 @@ function Curriculam() {
         <div className="four-content">
           <img
             data-aos="fade-left"
-            src="https://s3-alpha-sig.figma.com/img/ddb1/9e1f/fce6fc54466149c7e7e1eedb2f63ac1c?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Sv~PyVojHAd3rr15-EA4ThjKkvgwj5A~iid8gynmNb6rPrEZjS1PsjxwKlUJHZZx0SPml19omH2CrYB6O1ME9Rbpe1o3p~AfubHt~3R-suLN2vCqF~-yKPxfQb-~XxFkI~-r~7QBIRkgmGyVX75Xmxpq8I6oIJ2cwY598iY2eKc5RlSScXhI~kVZIHnIDYLOl0rkhruqJ1cx1T0uR3a0vhMpLU2wz3IjJRIx8hKAxpH7hD8OjIQ7oR1ACBIfWpsq7VUt98OIzbSQARZCN4WMlUPGx~Hbd~f1pp9xsWBW5GOGIwLUl60UfzHxYi94UJYa8okaAlpf5acFevwv~m6zhA__"
+            src={manImage}
             alt="Graduate"
             className="four-image"
           />
@@ -371,9 +374,27 @@ function Curriculam() {
             </h2>
             <p className="slogan">Learn. Apply. Grow.</p>
             <div className="social-icons">
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands fa-whatsapp"></i>
+               <a
+                href="https://youtube.com/@edexlifeschool?si=rUOWcRAm65NArbXa"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa-brands fa-youtube text-white"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/edex_life_school?igsh=MXV2MGp6cnk3d25waw=="
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa-brands fa-instagram text-white"></i>
+              </a>
+              <a
+                href="https://wa.me/+919656439246"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa-brands fa-whatsapp text-white"></i>
+              </a>
             </div>
           </div>
 
@@ -389,11 +410,12 @@ function Curriculam() {
           </div>
 
           {/* Column 3: Address & Contact */}
-          <div className="footer-column">
+           <div className="footer-column">
             <h4>Address</h4>
             <p>Cherpulassery, Kerala</p>
             <h4>Phone & mail</h4>
-            <p>+91 12345 12345</p>
+            <p>+91 96564 39246</p>
+            <p>+918891719496</p>
             <p>info@edexlifeschool</p>
           </div>
 
