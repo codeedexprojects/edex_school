@@ -161,14 +161,22 @@ function Home() {
           </p>
         </div>
       </div>
-      <div className="community">
-        <h1>Meet Our Community</h1>
-        <p>
-          Discover the diverse individuals who have transformed their education{" "}
-          <br /> into experience at EDEX Life School.
-        </p>
-      </div>
-      <div className="img-card">
+    <div className="community">
+  <h1>Meet Our Community</h1>
+  <p>
+    Discover the diverse individuals who have transformed their education{" "}
+    <br /> into experience at EDEX Life School.
+  </p>
+
+  <div className="coming-soon-box">
+    <span className="badge">Coming Soon</span>
+    <p className="soon-text">
+    Stay tuned to explore inspiring stories from our learners!<br />
+      
+    </p>
+  </div>
+</div>
+      {/* <div className="img-card">
         <div className="cards" data-aos="flip-left">
           <img
             src="https://voyagehouston.com/wp-content/uploads/2022/08/c-PersonalDanielGarciaPrats__MG6384_1655264614439-1000x600.jpg"
@@ -205,7 +213,7 @@ function Home() {
             world.
           </p>
         </div>
-      </div>
+      </div> */}
       <div className="list">
         <h2 data-aos="fade-up">Who is this for?</h2>
         <ul>
