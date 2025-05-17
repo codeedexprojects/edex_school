@@ -90,7 +90,7 @@ function Home() {
         <div class="batch-right" data-aos="fade-up">
           <div class="batch-card">
             <p class="label">Next Batch Starts</p>
-            <h3>May 3, 2025 !</h3>
+            <h3>Starting Soon..!</h3>
           </div>
           <div class="batch-card">
             <p class="label">Location:</p>
@@ -98,7 +98,7 @@ function Home() {
           </div>
           <div class="batch-card">
             <p class="label">Batch Start Date:</p>
-            <h3>May 3, 2025</h3>
+            <h3>Scheduled Soon...!</h3>
           </div>
           <div class="batch-card">
             <p class="label">Admissions Open –</p>
