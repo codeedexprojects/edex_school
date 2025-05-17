@@ -269,7 +269,7 @@ function Home() {
       </div>
       <div className="home-banner">
         <div className="home-image">
-          <h2>Next Batch Starts May 3!</h2>
+          <h2>Next Batch Starts Soon</h2>
           <br />
           <h5>Admission Open</h5>
           <br />
@@ -277,7 +277,7 @@ function Home() {
           <br />
           <h5>Location: Cherpulassery, Kerala</h5>
           <br />
-          <h5>Batch Start Date: May 3, 2025</h5>
+          <h5>Batch Start Date: Scheduled Soon...!</h5>
           <br />
           <a
             href="https://forms.gle/39rjF6kV9jtHihqH9"
