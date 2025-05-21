@@ -53,9 +53,10 @@ function Home() {
       </nav>
 
       <div className="animation">
-        <video autoPlay muted playsInline className="background-video">
-          <source src={video} type="" />
-        </video>
+       <video autoPlay muted playsInline className="background-video">
+  <source src={video} type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
         <div className="home-heading">
           <h1>TRANSFORMING</h1>
@@ -285,7 +286,7 @@ function Home() {
             rel="noopener noreferrer"
           >
             <button data-aos="zoom-in">Apply Now</button>
-          </a>{" "}
+          </a>
         </div>
       </div>
       <footer className="footer">
