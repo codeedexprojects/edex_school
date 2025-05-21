@@ -36,7 +36,7 @@ function Home() {
           </h3>
           <h3>
             <Link to="/curiculam" onClick={() => setMenuOpen(false)}>
-              Curriculam
+              Curriculum
             </Link>
           </h3>
           <h3>
