@@ -98,7 +98,7 @@ function Home() {
           </div>
           <div class="batch-card">
             <p class="label">Batch Start Date:</p>
-            <h3>Scheduled Soon...!</h3>
+            <h3>June 1st Week</h3>
           </div>
           <div class="batch-card">
             <p class="label">Admissions Open –</p>
@@ -277,7 +277,7 @@ function Home() {
           <br />
           <h5>Location: Cherpulassery, Kerala</h5>
           <br />
-          <h5>Batch Start Date: Scheduled Soon...!</h5>
+          <h5>Batch Start Date: June 1st Week</h5>
           <br />
           <a
             href="https://forms.gle/39rjF6kV9jtHihqH9"

@@ -95,7 +95,7 @@ function Curriculam() {
           </div>
           <div class="group-card">
             <p class="label">Batch Start Date:</p>
-            <h3>Scheduled Soon...!</h3>
+            <h3>June 1st Week</h3>
           </div>
           <div class="group-card">
             <p class="label">Admissions Open –</p>
