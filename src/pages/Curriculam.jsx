@@ -87,7 +87,7 @@ function Curriculam() {
         <div class="group-right" data-aos="fade-up">
           <div class="group-card">
             <p class="label">Next Batch Starts</p>
-            <h3>Starting Soon...!</h3>
+            <h3>June 1st Week</h3>
           </div>
           <div class="group-card">
             <p class="label">Location:</p>
