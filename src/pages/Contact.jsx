@@ -132,15 +132,15 @@ function Contact() {
           </div>
 
           {/* Column 2: Quick Links */}
-          <div className="footer-column">
-            <h4>Quick Links</h4>
-            <ul>
-              <li>Home</li>
-              <li>Curriculum</li>
-              <li>About Us</li>
-              <li>Contact</li>
-            </ul>
-          </div>
+           <div className="footer-column">
+                <h4>Quick Links</h4>
+                <ul >
+                  <li><Link className="text-white" to="/">Home</Link></li>
+                  <li><Link className="text-white" to="/curiculam">Curriculum</Link></li>
+                  <li><Link className="text-white" to="/about">About Us</Link></li>
+                  <li><Link className="text-white" to="/contact">Contact</Link></li>
+                </ul>
+              </div>
 
           {/* Column 3: Address & Contact */}
            <div className="footer-column">
