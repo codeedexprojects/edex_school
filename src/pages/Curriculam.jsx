@@ -356,7 +356,7 @@ function Curriculam() {
           <h2>Talk to our expert</h2>
           <p>
             Schedule a call with our expert to learn more about the course
-            you're willing to join
+            you're willing to join.
           </p>
 
           <div className="form-container">

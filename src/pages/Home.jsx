@@ -17,10 +17,10 @@ function Home() {
     <div>
       <nav className="navbar">
         <div className="navbar-left">
-  <Link to="/">
-    <img src={logo} alt="edexlogo" className="logo" />
-  </Link>
-</div>
+          <Link to="/">
+            <img src={logo} alt="edexlogo" className="logo" />
+          </Link>
+        </div>
 
         <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
           {menuOpen ? (
@@ -55,7 +55,11 @@ function Home() {
       </nav>
 
       <div className="animation">
-    <img src="/animation-gif.gif" alt="Animated GIF" className="background-video" />
+        <img
+          src="/animation-gif.gif"
+          alt="Animated GIF"
+          className="background-video"
+        />
 
         <div className="home-heading">
           <h1>TRANSFORMING</h1>
@@ -72,8 +76,8 @@ function Home() {
         <div className="subhead">
           <p data-aos="zoom-in">
             At EDEX Life School, We Believe in Learning By Doing. Our 100-days
-            Master Course is designed to make you 1% better everyday, helping you
-            bridge the gap between theory and real-world application.
+            Master Course is designed to make you 1% better everyday, helping
+            you bridge the gap between theory and real-world application.
           </p>
         </div>
         <div className="btn">
@@ -117,7 +121,7 @@ function Home() {
         <div className="card1" data-aos="zoom-in">
           <h3>14 Skills</h3>
           <p>
-             Master essential business and professional skills through hands-on
+            Master essential business and professional skills through hands-on
             learning
           </p>
         </div>
@@ -161,21 +165,21 @@ function Home() {
           </p>
         </div>
       </div>
-    <div className="community">
-  <h1>Meet Our Community</h1>
-  <p>
-    Discover the diverse individuals who have transformed their education{" "}
-    <br /> into experience at EDEX Life School.
-  </p>
+      <div className="community">
+        <h1>Meet Our Community</h1>
+        <p>
+          Discover the diverse individuals who have transformed their education{" "}
+          <br /> into experience at EDEX Life School.
+        </p>
 
-  <div className="coming-soon-box">
-    <span className="badge">Coming Soon</span>
-    <p className="soon-text">
-    Stay tuned to explore inspiring stories from our learners!<br />
-      
-    </p>
-  </div>
-</div>
+        <div className="coming-soon-box">
+          <span className="badge">Coming Soon</span>
+          <p className="soon-text">
+            Stay tuned to explore inspiring stories from our learners!
+            <br />
+          </p>
+        </div>
+      </div>
       {/* <div className="img-card">
         <div className="cards" data-aos="flip-left">
           <img
@@ -230,41 +234,45 @@ function Home() {
           </li>
         </ul>
       </div>
-     <h2 className="focus-heading">Focus Areas</h2>
+      <h2 className="focus-heading">Focus Areas</h2>
 
-<div className="card-container">
-  <div className="card" data-aos="flip-down">
-    <div className="card-number">1</div>
-    <div>
-      <h3>Mental Development</h3>
-      <p>Develop critical thinking, adaptability, and leadership skills.</p>
-    </div>
-  </div>
+      <div className="card-container">
+        <div className="card" data-aos="flip-down">
+          <div className="card-number">1</div>
+          <div>
+            <h3>Mental Development</h3>
+            <p>
+              Develop critical thinking, adaptability, and leadership skills.
+            </p>
+          </div>
+        </div>
 
-  <div className="card" data-aos="flip-down">
-    <div className="card-number">2</div>
-    <div>
-      <h3>Emotional Development</h3>
-      <p>Build resilience, empathy, and strong interpersonal skills.</p>
-    </div>
-  </div>
+        <div className="card" data-aos="flip-down">
+          <div className="card-number">2</div>
+          <div>
+            <h3>Emotional Development</h3>
+            <p>Build resilience, empathy, and strong interpersonal skills.</p>
+          </div>
+        </div>
 
-  <div className="card" data-aos="flip-down">
-    <div className="card-number">3</div>
-    <div>
-      <h3>Physical Development</h3>
-      <p>Enhance wellness and energy management.</p>
-    </div>
-  </div>
+        <div className="card" data-aos="flip-down">
+          <div className="card-number">3</div>
+          <div>
+            <h3>Physical Development</h3>
+            <p>Enhance wellness and energy management.</p>
+          </div>
+        </div>
 
-  <div className="card" data-aos="flip-down">
-    <div className="card-number">4</div>
-    <div>
-      <h3>Intellectual Development</h3>
-      <p>Cultivate creativity, digital fluency, and financial literacy.</p>
-    </div>
-  </div>
-</div>
+        <div className="card" data-aos="flip-down">
+          <div className="card-number">4</div>
+          <div>
+            <h3>Intellectual Development</h3>
+            <p>
+              Cultivate creativity, digital fluency, and financial literacy.
+            </p>
+          </div>
+        </div>
+      </div>
 
       <div className="home-banner">
         <div className="home-image">
@@ -283,7 +291,7 @@ function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button data-aos="zoom-in">Apply Now</button>
+            <button>Apply Now</button>
           </a>
         </div>
       </div>
@@ -322,14 +330,46 @@ function Home() {
 
           {/* Column 2: Quick Links */}
           <div className="footer-column">
-      <h4>Quick Links</h4>
-      <ul >
-        <li><Link className="text-white" style={{textDecoration:"none"}} to="/">Home</Link></li>
-        <li><Link className="text-white" style={{textDecoration:"none"}} to="/curiculam">Curriculum</Link></li>
-        <li><Link className="text-white" style={{textDecoration:"none"}} to="/about">About Us</Link></li>
-        <li><Link className="text-white" style={{textDecoration:"none"}} to="/contact">Contact</Link></li>
-      </ul>
-    </div>
+            <h4>Quick Links</h4>
+            <ul>
+              <li>
+                <Link
+                  className="text-white"
+                  style={{ textDecoration: "none" }}
+                  to="/"
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-white"
+                  style={{ textDecoration: "none" }}
+                  to="/curiculam"
+                >
+                  Curriculum
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-white"
+                  style={{ textDecoration: "none" }}
+                  to="/about"
+                >
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-white"
+                  style={{ textDecoration: "none" }}
+                  to="/contact"
+                >
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </div>
 
           {/* Column 3: Address & Contact */}
           <div className="footer-column">
@@ -345,7 +385,8 @@ function Home() {
           <div className="footer-column">
             <h4>Newsletter</h4>
             <p className="newsletter-text">
-             Be the first to know about school events, new courses, and exclusive updates.
+              Be the first to know about school events, new courses, and
+              exclusive updates.
             </p>
             <input type="email" placeholder="Email address" />
             <button>Subscribe</button>

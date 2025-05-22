@@ -546,6 +546,10 @@ body {
   color: white;
   margin-right: 30px;
 }
+/* 
+.social-icons i:hover {
+  color: #cdff00;
+} */
 
 .footer-column h4 {
   font-size: 16px;
@@ -565,12 +569,11 @@ body {
   margin-bottom: 6px;
   cursor: pointer;
   transition: color 0.3s ease;
-  text-decoration: none;
 }
 
-.footer-column ul li:hover {
+/* .footer-column ul li:hover {
   color: #cdff00;
-}
+} */
 
 .footer-column p {
   font-size: 13px;

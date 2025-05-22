@@ -15,7 +15,7 @@ function Contact() {
   return (
     <div>
       <nav className="navbar">
-              <div className="navbar-left">
+        <div className="navbar-left">
           <Link to="/">
             <img src={logo} alt="edexlogo" className="logo" />
           </Link>
@@ -78,7 +78,6 @@ function Contact() {
           <div class="contact-info">
             <p>
               <i class="fa-solid fa-phone"></i> +919656439246
-
             </p>
             <p>
               <i class="fa-solid fa-envelope"></i> info@edexlifeschool
@@ -108,8 +107,8 @@ function Contact() {
               Edex <span className="sub-logo">Life School</span>
             </h2>
             <p className="slogan">Learn. Apply. Grow.</p>
-             <div className="social-icons">
-               <a
+            <div className="social-icons">
+              <a
                 href="https://youtube.com/@edexlifeschool?si=rUOWcRAm65NArbXa"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -134,18 +133,50 @@ function Contact() {
           </div>
 
           {/* Column 2: Quick Links */}
-           <div className="footer-column">
-                <h4>Quick Links</h4>
-                <ul >
-                  <li><Link className="text-white" style={{textDecoration:"none"}} to="/">Home</Link></li>
-                  <li><Link className="text-white" style={{textDecoration:"none"}} to="/curiculam">Curriculum</Link></li>
-                  <li><Link className="text-white" style={{textDecoration:"none"}} to="/about">About Us</Link></li>
-                  <li><Link className="text-white" style={{textDecoration:"none"}} to="/contact">Contact</Link></li>
-                </ul>
-              </div>
+          <div className="footer-column">
+            <h4>Quick Links</h4>
+            <ul>
+              <li>
+                <Link
+                  className="text-white"
+                  style={{ textDecoration: "none" }}
+                  to="/"
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-white"
+                  style={{ textDecoration: "none" }}
+                  to="/curiculam"
+                >
+                  Curriculum
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-white"
+                  style={{ textDecoration: "none" }}
+                  to="/about"
+                >
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-white"
+                  style={{ textDecoration: "none" }}
+                  to="/contact"
+                >
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </div>
 
           {/* Column 3: Address & Contact */}
-           <div className="footer-column">
+          <div className="footer-column">
             <h4>Address</h4>
             <p>Cherpulassery, Kerala</p>
             <h4>Phone & mail</h4>
@@ -158,7 +189,8 @@ function Contact() {
           <div className="footer-column">
             <h4>Newsletter</h4>
             <p className="newsletter-text">
-             Be the first to know about school events, new courses, and exclusive updates.
+              Be the first to know about school events, new courses, and
+              exclusive updates.
             </p>
             <input type="email" placeholder="Email address" />
             <button>Subscribe</button>
