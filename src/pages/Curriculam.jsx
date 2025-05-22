@@ -18,9 +18,11 @@ function Curriculam() {
   return (
     <div>
       <nav className="navbar">
-        <div className="navbar-left">
-          <img src={logo} alt="edexlogo" className="logo" />
-        </div>
+             <div className="navbar-left">
+         <Link to="/">
+           <img src={logo} alt="edexlogo" className="logo" />
+         </Link>
+       </div>
 
         <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
           {menuOpen ? (
@@ -61,12 +63,12 @@ function Curriculam() {
             SCHOOL
           </h1>
           <h2>14-WEEK PROGRAM</h2>
-          <p>
-            At EDEX Life School, we blend practical learning with real-world{" "}
+          <p style={{fontSize:"30px",fontWeight:"bold"}}>
+            Our Mission:
             <br />
-            exposure. Our 100-day Master Course is designed to provide hands-on
-            business and career experience while developing essential life
-            skills.
+            </p>
+            <p>
+           Empower students to grow 1% every day-mentally, emotionally, physically, and intellectually— through hands-on, practical learning.
           </p>
         </div>
 
@@ -402,10 +404,10 @@ function Curriculam() {
           <div className="footer-column">
                <h4>Quick Links</h4>
                <ul >
-                 <li><Link className="text-white" to="/">Home</Link></li>
-                 <li><Link className="text-white" to="/curiculam">Curriculum</Link></li>
-                 <li><Link className="text-white" to="/about">About Us</Link></li>
-                 <li><Link className="text-white" to="/contact">Contact</Link></li>
+                 <li><Link className="text-white" style={{textDecoration:"none"}} to="/">Home</Link></li>
+                 <li><Link className="text-white" style={{textDecoration:"none"}}  to="/curiculam">Curriculum</Link></li>
+                 <li><Link className="text-white" style={{textDecoration:"none"}} to="/about">About Us</Link></li>
+                 <li><Link className="text-white" style={{textDecoration:"none"}} to="/contact">Contact</Link></li>
                </ul>
              </div>
 

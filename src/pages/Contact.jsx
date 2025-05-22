@@ -15,8 +15,10 @@ function Contact() {
   return (
     <div>
       <nav className="navbar">
-        <div className="navbar-left">
-          <img src={logo} alt="edexlogo" className="logo" />
+              <div className="navbar-left">
+          <Link to="/">
+            <img src={logo} alt="edexlogo" className="logo" />
+          </Link>
         </div>
 
         <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
@@ -135,10 +137,10 @@ function Contact() {
            <div className="footer-column">
                 <h4>Quick Links</h4>
                 <ul >
-                  <li><Link className="text-white" to="/">Home</Link></li>
-                  <li><Link className="text-white" to="/curiculam">Curriculum</Link></li>
-                  <li><Link className="text-white" to="/about">About Us</Link></li>
-                  <li><Link className="text-white" to="/contact">Contact</Link></li>
+                  <li><Link className="text-white" style={{textDecoration:"none"}} to="/">Home</Link></li>
+                  <li><Link className="text-white" style={{textDecoration:"none"}} to="/curiculam">Curriculum</Link></li>
+                  <li><Link className="text-white" style={{textDecoration:"none"}} to="/about">About Us</Link></li>
+                  <li><Link className="text-white" style={{textDecoration:"none"}} to="/contact">Contact</Link></li>
                 </ul>
               </div>
 

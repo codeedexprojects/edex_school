@@ -17,8 +17,10 @@ function Home() {
     <div>
       <nav className="navbar">
         <div className="navbar-left">
-          <img src={logo} alt="edexlogo" className="logo" />
-        </div>
+  <Link to="/">
+    <img src={logo} alt="edexlogo" className="logo" />
+  </Link>
+</div>
 
         <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
           {menuOpen ? (
@@ -53,10 +55,7 @@ function Home() {
       </nav>
 
       <div className="animation">
-       <video autoPlay muted playsInline className="background-video">
-  <source src="/animation.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+    <img src="/animation-gif.gif" alt="Animated GIF" className="background-video" />
 
         <div className="home-heading">
           <h1>TRANSFORMING</h1>
@@ -74,7 +73,7 @@ function Home() {
           <p data-aos="zoom-in">
             At EDEX Life School, We Believe in Learning By Doing. Our 100-days
             Master Course is designed to make you 1% better everyday, helping you
-            bridge the gap between theory and Real-world Application{" "}
+            bridge the gap between theory and real-world application.
           </p>
         </div>
         <div className="btn">
@@ -118,8 +117,8 @@ function Home() {
         <div className="card1" data-aos="zoom-in">
           <h3>14 Skills</h3>
           <p>
-            Engage in 14 weeks of structured learning for progressive growth and
-            industry relevance.
+             Master essential business and professional skills through hands-on
+            learning
           </p>
         </div>
         <div className="card1" data-aos="zoom-in">
@@ -128,8 +127,8 @@ function Home() {
             Experience
           </h3>
           <p>
-            Master essential business and professional skills through hands-on
-            learning
+            Engage in 14 weeks of structured learning for progressive growth and
+            industry relevance.
           </p>
         </div>
         <div className="card1" data-aos="zoom-in">
@@ -227,7 +226,7 @@ function Home() {
             skills.
           </li>
           <li data-aos="fade-up">
-            Career Fast Trackers who want to accelerate their career growth.
+            Career Fast-Trackers who want to accelerate their career growth.
           </li>
         </ul>
       </div>
@@ -325,10 +324,10 @@ function Home() {
           <div className="footer-column">
       <h4>Quick Links</h4>
       <ul >
-        <li><Link className="text-white" to="/">Home</Link></li>
-        <li><Link className="text-white" to="/curiculam">Curriculum</Link></li>
-        <li><Link className="text-white" to="/about">About Us</Link></li>
-        <li><Link className="text-white" to="/contact">Contact</Link></li>
+        <li><Link className="text-white" style={{textDecoration:"none"}} to="/">Home</Link></li>
+        <li><Link className="text-white" style={{textDecoration:"none"}} to="/curiculam">Curriculum</Link></li>
+        <li><Link className="text-white" style={{textDecoration:"none"}} to="/about">About Us</Link></li>
+        <li><Link className="text-white" style={{textDecoration:"none"}} to="/contact">Contact</Link></li>
       </ul>
     </div>
 

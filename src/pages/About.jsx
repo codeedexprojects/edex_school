@@ -15,9 +15,11 @@ function About() {
   return (
     <div>
       <nav className="navbar">
-        <div className="navbar-left">
-          <img src={logo} alt="edexlogo" className="logo" />
-        </div>
+           <div className="navbar-left">
+       <Link to="/">
+         <img src={logo} alt="edexlogo" className="logo" />
+       </Link>
+     </div>
 
         <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
           {menuOpen ? (
@@ -234,7 +236,7 @@ function About() {
             alt="banner"
           />
           <div className="banner-content">
-            <h2>Ready To Transform Your Future?</h2>
+            <h2>Ready to transform your future?</h2>
             <button data-aos="zoom-out">View More</button>
           </div>
         </div>
@@ -278,10 +280,10 @@ function About() {
           <div className="footer-column">
                <h4>Quick Links</h4>
                <ul >
-                 <li><Link className="text-white" to="/">Home</Link></li>
-                 <li><Link className="text-white" to="/curiculam">Curriculum</Link></li>
-                 <li><Link className="text-white" to="/about">About Us</Link></li>
-                 <li><Link className="text-white" to="/contact">Contact</Link></li>
+                 <li><Link className="text-white" style={{textDecoration:"none"}} to="/">Home</Link></li>
+                 <li><Link className="text-white" style={{textDecoration:"none"}} to="/curiculam">Curriculum</Link></li>
+                 <li><Link className="text-white" style={{textDecoration:"none"}} to="/about">About Us</Link></li>
+                 <li><Link className="text-white" style={{textDecoration:"none"}} to="/contact">Contact</Link></li>
                </ul>
              </div>
 

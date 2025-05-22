@@ -406,6 +406,7 @@ body {
   margin-bottom: 20px;   
   font-size: 2rem;
   font-weight: bold;     
+  color: white;
 }
 
 
@@ -530,24 +531,20 @@ body {
 
 }
 
-.social-icons a:hover {
+/* .social-icons a:hover {
   background-color: #cdff00;
   color: black;
-}
+} */
 
-.social-icons a:hover i {
+/* .social-icons a:hover i {
   color: black;
-}
+} */
 
 
 .social-icons i {
   font-size: 16px;
   color: white;
   margin-right: 30px;
-}
-
-.social-icons i:hover {
-  color: #cdff00;
 }
 
 .footer-column h4 {
@@ -568,6 +565,7 @@ body {
   margin-bottom: 6px;
   cursor: pointer;
   transition: color 0.3s ease;
+  text-decoration: none;
 }
 
 .footer-column ul li:hover {
