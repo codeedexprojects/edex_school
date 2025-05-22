@@ -67,7 +67,7 @@ function Home() {
         </div>
         <div className="sub">
           <h3>Learn.</h3>
-          <h3>Happy.</h3>
+          <h3>Apply.</h3>
           <h3>Grow.</h3>
         </div>
         <div className="subhead">
