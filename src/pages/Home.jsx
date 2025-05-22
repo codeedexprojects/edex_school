@@ -124,11 +124,11 @@ function Home() {
         </div>
         <div className="card1" data-aos="zoom-in">
           <h3>
-            Immensive Learning <br />
+            Immersive Learning <br />
             Experience
           </h3>
           <p>
-            Master essential bussiness and professional skills through hands-on
+            Master essential business and professional skills through hands-on
             learning
           </p>
         </div>
@@ -218,16 +218,16 @@ function Home() {
       <div className="list">
         <h2 data-aos="fade-up">Who is this for?</h2>
         <ul>
-          <li data-aos="fade-up">Graduate seeking practical experience</li>
+          <li data-aos="fade-up">Graduate seeking practical experience.</li>
           <li data-aos="fade-up">
-            Entrepreneurs aiming to building stronger business acumen
+            Entrepreneurs aiming to building stronger business acumen.
           </li>
           <li data-aos="fade-up">
             Professionals looking to enhance leadership and decision-making
             skills.
           </li>
           <li data-aos="fade-up">
-            Career Fast Trackers who want to accelerate their career growth
+            Career Fast Trackers who want to accelerate their career growth.
           </li>
         </ul>
       </div>
