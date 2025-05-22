@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
-import video from "/src/assets/animation.mp4";
+// import video from "/src/assets/animation.mp4";
 import { FiMenu, FiX } from "react-icons/fi";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -54,7 +54,7 @@ function Home() {
 
       <div className="animation">
        <video autoPlay muted playsInline className="background-video">
-  <source src={video} type="video/mp4" />
+  <source src="/animation.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
