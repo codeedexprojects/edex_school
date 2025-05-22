@@ -73,7 +73,7 @@ function Home() {
         <div className="subhead">
           <p data-aos="zoom-in">
             At EDEX Life School, We Believe in Learning By Doing. Our 100-days
-            Master Course is designed to make you 1% better everyday,helping you
+            Master Course is designed to make you 1% better everyday, helping you
             bridge the gap between theory and Real-world Application{" "}
           </p>
         </div>
@@ -157,7 +157,7 @@ function Home() {
         >
           <h3>Strategic Games</h3>
           <p>
-            Develop leadership problem-solving, and negotiation <br />
+            Develop leadership, problem-solving, and negotiation <br />
             skills through high-impact simulations.
           </p>
         </div>
@@ -231,43 +231,42 @@ function Home() {
           </li>
         </ul>
       </div>
-      <div class="card-container">
-        <div class="card" data-aos="flip-down">
-          <div class="card-number">1</div>
-          <div>
-            <h3>Mental Development</h3>
-            <p>
-              Develop critical thinking, adaptability, and leadership skills.
-            </p>
-          </div>
-        </div>
+     <h2 className="focus-heading">Focus Areas</h2>
 
-        <div class="card" data-aos="flip-down">
-          <div class="card-number">2</div>
-          <div>
-            <h3>Emotional Development</h3>
-            <p>Build resilience, empathy, and strong interpersonal skills.</p>
-          </div>
-        </div>
+<div className="card-container">
+  <div className="card" data-aos="flip-down">
+    <div className="card-number">1</div>
+    <div>
+      <h3>Mental Development</h3>
+      <p>Develop critical thinking, adaptability, and leadership skills.</p>
+    </div>
+  </div>
 
-        <div class="card" data-aos="flip-down">
-          <div class="card-number">3</div>
-          <div>
-            <h3>Physical Development</h3>
-            <p>Enhance wellness and energy management.</p>
-          </div>
-        </div>
+  <div className="card" data-aos="flip-down">
+    <div className="card-number">2</div>
+    <div>
+      <h3>Emotional Development</h3>
+      <p>Build resilience, empathy, and strong interpersonal skills.</p>
+    </div>
+  </div>
 
-        <div class="card" data-aos="flip-down">
-          <div class="card-number">4</div>
-          <div>
-            <h3>Intellectual Development</h3>
-            <p>
-              Cultivate creativity, digital fluency, and financial literacy.
-            </p>
-          </div>
-        </div>
-      </div>
+  <div className="card" data-aos="flip-down">
+    <div className="card-number">3</div>
+    <div>
+      <h3>Physical Development</h3>
+      <p>Enhance wellness and energy management.</p>
+    </div>
+  </div>
+
+  <div className="card" data-aos="flip-down">
+    <div className="card-number">4</div>
+    <div>
+      <h3>Intellectual Development</h3>
+      <p>Cultivate creativity, digital fluency, and financial literacy.</p>
+    </div>
+  </div>
+</div>
+
       <div className="home-banner">
         <div className="home-image">
           <h2>Next Batch Starts Soon</h2>
@@ -347,8 +346,7 @@ function Home() {
           <div className="footer-column">
             <h4>Newsletter</h4>
             <p className="newsletter-text">
-              Sign up today and become part of a thriving wedding planning
-              community. Enter your email below to subscribe!
+             Be the first to know about school events, new courses, and exclusive updates.
             </p>
             <input type="email" placeholder="Email address" />
             <button>Subscribe</button>

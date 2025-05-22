@@ -299,8 +299,7 @@ function About() {
           <div className="footer-column">
             <h4>Newsletter</h4>
             <p className="newsletter-text">
-              Sign up today and become part of a thriving wedding planning
-              community. Enter your email below to subscribe!
+             Be the first to know about school events, new courses, and exclusive updates.
             </p>
             <input type="email" placeholder="Email address" />
             <button>Subscribe</button>

@@ -399,6 +399,16 @@ body {
   justify-content: center;
 }
 
+.focus-heading {
+  text-align: left;
+  margin-left: 40px;     
+  margin-top: 40px;      
+  margin-bottom: 20px;   
+  font-size: 2rem;
+  font-weight: bold;     
+}
+
+
 .home-banner {
   position: relative;
   height: 60vh;

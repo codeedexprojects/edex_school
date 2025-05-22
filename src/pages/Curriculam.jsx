@@ -64,7 +64,7 @@ function Curriculam() {
           <p>
             At EDEX Life School, we blend practical learning with real-world{" "}
             <br />
-            exposure. Our 100-day Master Course is designed to provide hands- on
+            exposure. Our 100-day Master Course is designed to provide hands-on
             business and career experience while developing essential life
             skills.
           </p>
@@ -112,13 +112,13 @@ function Curriculam() {
           <div className="left-works">
             <div className="sub-works">
               <h5 data-aos="fade-up">Daily Tasks</h5>
-              <p data-aos="fade-up">Boost your progress by 1% everyday</p>
+              <p data-aos="fade-up">Boost your progress by 1% every day.</p>
             </div>
             <hr data-aos="fade-up" />
             <div className="sub-works">
               <h5 data-aos="fade-up">Reflection</h5>
               <p data-aos="fade-up">
-                Track growth through your journals and peer feedback
+                Track growth through your journals and peer feedback.
               </p>
             </div>
           </div>
@@ -127,18 +127,18 @@ function Curriculam() {
           <div className="right-works">
             <div className="sub-left">
               <h5 data-aos="fade-up">Expert Session</h5>
-              <p data-aos="fade-up">Learn directly from industry leaders</p>
+              <p data-aos="fade-up">Learn directly from industry leaders.</p>
             </div>
             <hr data-aos="fade-up" />
             <div className="sub-left">
               <h5 data-aos="fade-up">Business Visits</h5>
-              <p data-aos="fade-up">Gain insight with real-world exposure</p>
+              <p data-aos="fade-up">Gain insight with real-world exposure.</p>
             </div>
             <hr data-aos="fade-up" />
             <div className="sub-left">
               <h5 data-aos="fade-up">Interactive Games</h5>
               <p data-aos="fade-up">
-                Develop skills through practical challenges
+                Develop skills through practical challenges.
               </p>
             </div>
           </div>
@@ -219,7 +219,7 @@ function Curriculam() {
             </h2>
             <p>
               {" "}
-              Explore what it takes <br /> to start and run a <br /> bussiness.
+              Explore what it takes <br /> to start and run a <br /> business.
             </p>
           </div>
           <div className="theme-cards" data-aos="flip-right">
@@ -423,8 +423,7 @@ function Curriculam() {
           <div className="footer-column">
             <h4>Newsletter</h4>
             <p className="newsletter-text">
-              Sign up today and become part of a thriving wedding planning
-              community. Enter your email below to subscribe!
+             Be the first to know about school events, new courses, and exclusive updates.
             </p>
             <input type="email" placeholder="Email address" />
             <button>Subscribe</button>
