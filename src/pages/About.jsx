@@ -92,9 +92,9 @@ function About() {
           Who We Are
         </h3>
         <p data-aos="zoom-in-up">
-          We're more than academy-we're a community of educators, entrepreneurs,
-          and innovatiors passionate about real-world learning. Our program goes
-          beyond textbooks by emphasizing practical experiences.hands-on
+          We're more than an academy-we're a community of educators, entrepreneurs,
+          and innovators passionate about real-world learning. Our program goes
+          beyond textbooks by emphasizing practical experiences, hands-on
           challenges, and mentorship from industry experts.
         </p>
       </div>
@@ -163,10 +163,10 @@ function About() {
       <div className="mission">
         <h3 data-aos="zoom-in-down">Our Mission</h3>
         <p data-aos="zoom-in-down">
-          Our mission is simple empower you to become a T-shaped professional.
+          Our mission is simple : empower you to become a T-shaped professional.
           We help you master <br />
           your core passion while broadening your skills across multiple
-          disciplins-preparing you to lead in yourcareer, entrepreneurship, and
+          disciplines-preparing you to lead in your career, entrepreneurship, and
           life .
         </p>
       </div>
@@ -177,7 +177,7 @@ function About() {
         <div className="box-section" data-aos="flip-up">
           <h5>1%Better Every Day</h5>
           <p>
-            Small,consistent improvements add upto <br />
+            Small, consistent improvements add up to <br />
             transformative results.
           </p>
         </div>
@@ -194,7 +194,7 @@ function About() {
           <h5>Holistic Development</h5>
           <p>
             We nurture mind, body, and spirit to shape well- <br />
-            rounded future-ready leaders.
+            rounded, future-ready leaders.
           </p>
         </div>
       </div>
@@ -202,7 +202,7 @@ function About() {
         <div className="one-section" data-aos="flip-down">
           <h5>Our Story</h5>
           <p>
-            Born from the belief the education shouldBorn from the belief that
+           Born from the belief that
             education should prepare you for life—not just exams— EDEX Life
             School was founded by a team of educators, entrepreneurs, and
             behavioral scientists. Since our inception, we’ve reimagined
