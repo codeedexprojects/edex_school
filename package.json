@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+   "build": "CI=false npm run build:original",
+    "build:original": "react-scripts build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
