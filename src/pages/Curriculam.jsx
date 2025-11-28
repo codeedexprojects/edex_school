@@ -1,60 +1,24 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect,  } from "react";
 import { Link } from "react-router-dom";
 import "./Curiculam.css";
 import { FiMenu, FiX } from "react-icons/fi";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import logo from "/src/assets/header.jpg";
+// import logo from "/src/assets/header.jpg";
 import frontimage from '/src/assets/graduate.png'
 import manImage from '/src/assets/man.png'
+import Header from "../components/Header";
 
 
 function Curriculam() {
-  const [menuOpen, setMenuOpen] = useState(false);
+  // const [menuOpen, setMenuOpen] = useState(false);
   useEffect(() => {
     Aos.init({ duration: "2000" });
   }, []);
 
   return (
     <div>
-      <nav className="navbar">
-             <div className="navbar-left">
-         <Link to="/">
-           <img src={logo} alt="edexlogo" className="logo" />
-         </Link>
-       </div>
-
-        <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
-          {menuOpen ? (
-            <FiX size={28} color="white" />
-          ) : (
-            <FiMenu size={28} color="white" />
-          )}
-        </div>
-
-        <div className={`navbar-right ${menuOpen ? "open" : ""}`}>
-          <h3>
-            <Link to="/" onClick={() => setMenuOpen(false)}>
-              Home
-            </Link>
-          </h3>
-          <h3>
-            <Link to="/curiculam" onClick={() => setMenuOpen(false)}>
-              Curriculum
-            </Link>
-          </h3>
-          <h3>
-            <Link to="/about" onClick={() => setMenuOpen(false)}>
-              About Us
-            </Link>
-          </h3>
-          <h3>
-            <Link to="/contact" onClick={() => setMenuOpen(false)}>
-              Contact
-            </Link>
-          </h3>
-        </div>
-      </nav>
+      <Header/>
 
       <div className="week-content" style={{paddingTop:"200px"}}>
         <div className="week-left" data-aos="fade-left">
@@ -79,7 +43,7 @@ function Curriculam() {
           />
         </div>
       </div>
-      <div className="group">
+      <div className="group1">
         <div class="group-image">
           <img
             src="https://img.freepik.com/premium-photo/smiling-teacher-educator-with-glasses-background-class_209864-66.jpg"

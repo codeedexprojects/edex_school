@@ -1,6 +1,4 @@
-body {
-  font-family: "Kumbh Sans", sans-serif;
-}
+
 .works {
   padding: 10px;
   background-color: hsl(0, 0%, 98%);
@@ -111,7 +109,7 @@ body {
 }
 
 .week-content,
-.group,
+.group1,
 .works,
 .themes,
 .four-box,
@@ -313,7 +311,7 @@ body {
     text-align: center;
   }
 }
-.group {
+.group2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -369,7 +367,7 @@ body {
 @media (max-width: 768px) {
   .group {
     flex-direction: column;
-    padding: 10px;
+    
   }
 
   .group-image img {
